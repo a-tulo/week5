@@ -16,9 +16,23 @@ def run_task2():
     print(f"{path[2]} for {path[3]} steps")
     print(f"{path[4]} for {path[5]} steps")
     print(f"{path[6]} for {path[7]} steps")
+
+def run_task3():
+    menu()
 def movements():
     path = ["Move Forward", 10 , "Move Backward" , 5 ,"Move Left", 3 , "Move Right", 1]
     return path
 
+def menu():
+    print("Please select a direction")
+    steps = directions()
+    for i in range(0,len(steps), 1):
+        print(f"{i+1} - {steps[i]}")
+
+
 if __name__ == "__main__":
-    run_task2()
+    run_task3()
+
+    # for index in range(len(path)):
+    #     posit = path[index]
+    #     print(f"{posit} is at index {index}")
