@@ -31,7 +31,7 @@ def menu():
 
 
 if __name__ == "__main__":
-    run_task3()
+    run_task1()
 
     # for index in range(len(path)):
     #     posit = path[index]
